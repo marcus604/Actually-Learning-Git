@@ -1,2 +1,27 @@
 Use this to play with different commit messages
-https://cbea.ms/git-commit/
+
+[Subject]
+Subjects for commits should be under 50 characters, but can be up to 72
+Github even warns you above the 50 character limit but truncates subjects over 72
+
+Don't forget to capitalize the subject line and dont end with a period!
+
+Subject line should be written in the imperative, so it should read like a instruction
+eg
+- Fix launch bug
+- Remove boilerplate code
+
+Simple rule to get it right
+A properly formed git commit subject line should always be able to complete the following sentence
+"If applied, this commit will <your subject line here>"
+
+Only needed for subject not the body
+
+[Body]
+Commit body's should wrap at 72 characters as well for readibility
+
+Know what 72 characters looks like? It's more than I thought it would.." | wc -c = 72 (I know I cheated with the double period)
+
+Body should explain what and why not the how as the code shows the how
+
+
